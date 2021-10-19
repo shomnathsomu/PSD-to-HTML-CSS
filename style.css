@@ -265,3 +265,41 @@ section::after {
     font-size: 14px;
     line-height: 1.4em;
 }
+
+#clients {
+    border-top: 1px solid #cccccc;
+    padding-top: 30px;
+}
+
+#clients h2 {
+    background: green;
+    width: 250px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    text-transform: uppercase;
+    position: relative;
+    top: -45px;
+    margin: 0 auto;
+    border-left: 15px solid #fff;
+    border-right: 15px solid #fff;
+}
+
+#clients img{
+    width: 30%;
+    float: left;
+}
+
+
+#clients blockquote{
+    width: 66%;
+    float: right;
+    margin: 10px 2% 0;
+    line-height: 1.6em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 50px;
+    color: #888;
+    background: url(./images/quotation-icon.png) no-repeat top left;
+    background-size: 50px;
+}
