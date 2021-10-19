@@ -207,3 +207,61 @@ header nav span {
     text-transform: uppercase;
     font-size: 72px;
 }
+
+/* ////////////////////////////////////////////////////////// */
+/* //////////////////// END BANNER STYLING //////////////// */
+/* ////////////////////////////////////////////////////////// */
+
+/* ////////////////////////////////////////////////////////// */
+/* ///////////////// START MAIN CONTENT STYLING ///////////// */
+/* ////////////////////////////////////////////////////////// */
+
+section {
+    margin: 40px 0 60px;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#points-of-sale ul{
+    list-style-type: none;
+}
+
+#points-of-sale h2{
+    height: 0;
+    text-indent: -10000px;
+}
+
+#points-of-sale li{
+    float: left;
+    width: 32%;
+}
+
+#points-of-sale li:nth-child(2) {
+    margin: 0 2%;
+}
+
+#points-of-sale li img {
+    width: 100%;
+    height: 280px;
+}
+
+#points-of-sale li h3{
+    text-align: center;
+    color: #888;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 5px 0 10px;
+}
+
+#points-of-sale li p {
+    width: 80%;
+    color: #888;
+    text-align: center;
+    margin: 0 10%;
+    font-size: 14px;
+    line-height: 1.4em;
+}
