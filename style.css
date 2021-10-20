@@ -213,7 +213,7 @@ header nav span {
 /* ////////////////////////////////////////////////////////// */
 
 /* ////////////////////////////////////////////////////////// */
-/* ///////////////// START MAIN CONTENT STYLING ///////////// */
+/* //////////// START MAIN CONTENT SECTION STYLING ////////// */
 /* ////////////////////////////////////////////////////////// */
 
 section {
@@ -340,10 +340,33 @@ section::after {
 
 #contact img{
     float: right;
-    width: 50%;
+    width: 60%;
 }
 
+#social-nav {
+    clear: both;
+    position: relative;
+    top: -30px;
+}
 
+#social-nav li{
+    list-style-type: none;
+    float: left;
+    padding: 0 10px;
+    width: 40px;
+    height: 30px;
+}
+
+#social-nav li i {
+    font-size: 24px;
+    color: #000;
+}
+
+#social-nav a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 /* ////////////////////////////////////////////////////////// */
 /* ///////////////// END MAIN CONTENT STYLING ///////////// */
 /* ////////////////////////////////////////////////////////// */
