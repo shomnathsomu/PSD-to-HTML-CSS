@@ -226,6 +226,10 @@ section::after {
     clear: both;
 }
 
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////// STYLING POINTS OF SALE //////////////// */
+/* //////////////////////////////////////////////////////// */
+
 #points-of-sale ul{
     list-style-type: none;
 }
@@ -266,12 +270,16 @@ section::after {
     line-height: 1.4em;
 }
 
-#clients {
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////// STYLING CLIENTS ////////////////////// */
+/* //////////////////////////////////////////////////////// */
+
+#clients, #contact {
     border-top: 1px solid #cccccc;
     padding-top: 30px;
 }
 
-#clients h2 {
+#clients h2, #contact h2 {
     background: green;
     width: 250px;
     text-align: center;
@@ -303,3 +311,39 @@ section::after {
     background: url(./images/quotation-icon.png) no-repeat top left;
     background-size: 50px;
 }
+
+/* ///////////////////////////////////////////////////////// */
+/* ///////////////// STYLING CONTACT ////////////////////// */
+/* //////////////////////////////////////////////////////// */
+
+#contact-methods {
+    float: left;
+}
+
+#contact-methods li{
+    list-style-type: none;
+    color: #888;
+    line-height: 30px;
+    clear: left;
+}
+
+#contact-methods li::before{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    background: url(./images/contact.png) no-repeat;
+    background-size: 30px;
+}
+
+#contact img{
+    float: right;
+    width: 50%;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+/* ///////////////// END MAIN CONTENT STYLING ///////////// */
+/* ////////////////////////////////////////////////////////// */
